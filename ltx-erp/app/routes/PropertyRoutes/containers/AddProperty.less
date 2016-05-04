@@ -1,0 +1,100 @@
+@import "../../../vars.less";
+@import "../../CustomerRoutes/containers/AddCustomer.less";
+
+
+
+
+.add-property {
+  .add-customer;
+
+}
+
+
+.bind-modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px 50px 0rem 30px;
+  >main {
+    vertical-align: top;
+    text-align: center;
+    font-size: 0px;
+    line-height: 90px;
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    >div {
+      line-height: 40px;
+      font-size: 26px;
+    }
+    >label {
+      font-size: 26px;
+      display: inline-block;
+      width: 140px;
+
+    }
+    >input {
+      padding-left: 20px;
+      font-size: 26px;
+      display: inline-block;
+      width: 360px;
+      height: 70px;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+    }
+    >span {
+      font-size: 26px;
+    }
+    >img {
+      display: block;
+      margin: auto;
+
+    }
+
+    >.get {
+      margin-left: 140px;
+      display: inline-block;
+      height: 70px;
+      line-height: 70px;
+      width: 120px;
+      background-color: @red;
+      margin-top: 10px;
+      border-radius: 8px;
+      color: #fff;
+      text-align: center;
+      margin-right: 10px;
+    }
+    >footer {
+      text-align: center;
+      margin-top: 60px;
+      .cancel {
+        text-align: center;
+        display: inline-block;
+        width: 240px;
+        height: 80px;
+        line-height: 80px;
+        color: @red;
+        border: 2px solid @red;
+        font-size: 32px;
+        background-color: #fff;
+        border-radius: 8px;
+
+      }
+      >.save {
+        .cancel;
+        color: #fff;
+        background-color: @red;
+        margin-left:20px;
+        border: 0px ;
+      }
+
+    }
+
+
+
+  }
+
+
+}

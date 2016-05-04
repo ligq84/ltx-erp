@@ -1,0 +1,77 @@
+@import "../../../vars.less";
+.customer {
+  padding: 10px 0rem;
+  line-height: 60px;
+  position: relative;
+  font-size: 0rem;
+  overflow: hidden;
+  >.company {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 60px;
+  }
+  >div.contact {
+    .company;
+    font-size: 32px;
+    margin-right: 20px;
+  }
+  >div.notifiction {
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    font-size: 20px;
+    color: #fff;
+    line-height:  26px;
+    right: 0;
+    top: 24px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ef4f4f;
+  }
+  >div.area {
+    .company;
+    width: 250px;
+
+  }
+  >div.price {
+    .company;
+    line-height: 60px;
+    width: 150px;
+  }
+  >div.type {
+    .company;
+    width: 180px;
+    text-align: right;
+    color: #ef4f4f;
+  }
+  >span.unit {
+    font-size:22px;
+    color: #969696;
+  }
+  >.state-1 {
+    display: inline-block;
+    line-height: 36px;
+    background-color: #ec1c4d;
+    font-size: 24px;
+    color: #fff;
+    margin-right: 10px;
+    padding: 0rem 5px;
+    vertical-align: center;
+  }
+  >.state-2 {
+    .state-1;
+    background-color: #2f9395;
+  }
+  >.state-3 {
+    .state-1;
+    background-color: #f16a43;
+  }
+  >.time {
+    .state-1;
+    background-color: #fff;
+    float: right;
+    font-size: 22px;
+    color: #969696;
+  }
+
+}

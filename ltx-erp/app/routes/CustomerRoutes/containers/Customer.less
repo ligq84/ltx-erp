@@ -1,0 +1,65 @@
+@import  "../../../vars.less";
+
+
+.customer-detail {
+  font-size:24px;
+  background-color: #f0f0f0;
+  >main {
+    >section.item {
+      background-color: #fff;
+      padding:20px 20px 20px 20px;
+      margin-bottom: 20px;
+      >h2 {
+        line-height: 70px;
+        margin: 0;
+        text-align: left;
+        color: #c80000;
+        font-weight: normal;
+      }
+      div {
+        text-align: left;
+        height: 70px;
+        border-bottom: 1px dashed @gray;
+        line-height: 70px;
+        label {
+          color: #646464;
+          font-weight: normal;
+          width: 150px;
+          display: inline-block;
+
+        }
+
+      }
+      >ul {
+        position: relative;
+        >div.border {
+          position: absolute;
+          height: auto;
+          left:21px;
+          top:32px;
+          bottom: 100px;
+          border:0;
+          border-left: 3px solid #ccc;
+        }
+
+       >li {
+         position: relative;
+         z-index: 999;
+         color: #c80000;
+         >header {
+           color: #646464;
+           line-height: 70px;
+         }
+         >footer {
+           color: #646464;
+           line-height: 70px;
+         }
+       }
+
+
+      }
+    }
+
+
+  }
+}

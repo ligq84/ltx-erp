@@ -1,0 +1,136 @@
+@import "../../../vars.less";
+
+.personal-detail {
+font-size: 26px;
+
+  >header {
+
+    padding-bottom: 20px;
+
+    background-color: rgb(240,240,240);
+    &.Tappable-active>section{
+      background-color: #f7f7f7;
+
+    }
+    >main {
+      overflow: hidden;
+      text-align: center;
+      background: #fff;
+
+      line-height: 100px;
+
+
+        >a {
+          display: block;
+          text-decoration: none;
+            border: 3px solid @red;
+            text-align: center;
+            width: 300px;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 8px;
+            margin: auto;
+            margin-bottom: 20px;
+            &.primary {
+              background: @red;
+              color: #fff;
+            }
+          }
+
+
+    }
+
+
+
+
+    >section {
+      background-color: #fff;
+      line-height: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      >label {
+        display: inline-block;
+        width: 150px;
+
+      }
+      >div {
+        display: inline-block;
+        float: right;
+        position: relative;
+        background-image: url(../../../img/arrow-right.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        width: 70px;
+
+        background-clip:padding-box;
+      }
+      >span {
+
+      }
+    }
+
+
+
+  }
+  >footer {
+
+    >section{
+      &.Tappable-active{
+        background-color: #f7f7f7;
+      }
+      padding:0rem 20px;
+      line-height: 90px;
+      border-bottom: 2px solid @gray;
+      >img {
+        height: 30px;
+        margin-top: 30px;
+        float: right;
+      }
+    }
+  }
+ >main {
+   padding-top: 20px;
+   background-color: rgb(240,240,240);
+   >section {
+     overflow: hidden;
+     background-color: #fff;
+     line-height: 80px;
+     padding-left: 20px;
+     padding-right:  20px;
+     >div {
+       float: right;
+       height: 80px;
+       line-height: 80px;
+       span.red {
+         color: red;
+       }
+     }
+   }
+
+
+ }
+
+
+
+}
+
+.need-to-know {
+  font-size: 24px;
+  padding: 20px;
+  >h3 {
+    text-align: left;
+  }
+  >.tel {
+    display: block;
+    height: 80px;
+    text-align: center;
+    color: #323232;
+
+
+    line-height: 80px;
+    font-size: 32px;
+    margin:20px -20px  -20px -20px;
+
+  }
+
+}
